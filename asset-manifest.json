@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/memegen/static/js/main.5289653d.chunk.js",
-    "main.js.map": "/memegen/static/js/main.5289653d.chunk.js.map",
-    "runtime-main.js": "/memegen/static/js/runtime-main.cc500fb2.js",
-    "runtime-main.js.map": "/memegen/static/js/runtime-main.cc500fb2.js.map",
-    "static/js/2.be438984.chunk.js": "/memegen/static/js/2.be438984.chunk.js",
-    "static/js/2.be438984.chunk.js.map": "/memegen/static/js/2.be438984.chunk.js.map",
-    "index.html": "/memegen/index.html",
-    "precache-manifest.c782c8ec7849bc5ed5cf1b710859ed38.js": "/memegen/precache-manifest.c782c8ec7849bc5ed5cf1b710859ed38.js",
-    "service-worker.js": "/memegen/service-worker.js"
+    "main.js": "/MemeGen/static/js/main.5289653d.chunk.js",
+    "main.js.map": "/MemeGen/static/js/main.5289653d.chunk.js.map",
+    "runtime-main.js": "/MemeGen/static/js/runtime-main.0450c3c1.js",
+    "runtime-main.js.map": "/MemeGen/static/js/runtime-main.0450c3c1.js.map",
+    "static/js/2.be438984.chunk.js": "/MemeGen/static/js/2.be438984.chunk.js",
+    "static/js/2.be438984.chunk.js.map": "/MemeGen/static/js/2.be438984.chunk.js.map",
+    "index.html": "/MemeGen/index.html",
+    "precache-manifest.b3e79cc69eb2451d6be11a6c132b6161.js": "/MemeGen/precache-manifest.b3e79cc69eb2451d6be11a6c132b6161.js",
+    "service-worker.js": "/MemeGen/service-worker.js"
   },
   "entrypoints": [
-    "static/js/runtime-main.cc500fb2.js",
+    "static/js/runtime-main.0450c3c1.js",
     "static/js/2.be438984.chunk.js",
     "static/js/main.5289653d.chunk.js"
   ]
