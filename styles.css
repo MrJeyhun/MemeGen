@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: VT323, monospace;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background: #6441a5; /*fallback for old browsers*/
+  background: -webkit-linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  ); /* for Chrome(10-25) & Safari(5.1-6) */
+  background: linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  ); /* W3C, IE10+/ Edge, Firefox 16+ , 
+  Chrome 26+, Opera 12+ , Safari 7+ */
+}
+
+header > img {
+  height: 80%;
+  margin-left: 10%;
+}
+
+.header-title {
+  color: whitesmoke;
+  font-size: 50px;
+  margin-left: 60px;
+}
+
+.meme {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.meme > img {
+  width: 100%;
+}
+
+.meme > h2 {
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  width: 80%;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.meme .top {
+  top: 0;
+}
+
+.meme .bottom {
+  bottom: 0;
+}
+
+.meme-form {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.meme-form > input {
+  width: 45%;
+  height: 40px;
+}
+
+.meme-form > button {
+  border: none;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  background: #6441a5;
+}
+
+/*Chrome / Opeara / Safari */
+.meme-form > input::-webkit-input-placeholder {
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Firefox 19+ */
+.meme-form > input::-moz-placeholder {
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* IE 10+ */
+.meme-form > input:-ms-input-placeholder {
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Firefox 18- */
+.meme-form > input:-moz-placeholder {
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: center;
+}
+
+/*_______________________________________________*/
+
+/* body {
+  background-color: whitesmoke;
+}
+
+.jokes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+  width: 65%;
+  background-color: wheat;
+  border-radius: 5%;
+}
+
+.joke {
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(163, 119, 119, 0.7);
+}
+
+.breakline {
+  color: aqua;
+  opacity: 85%;
+} */
+
+/* .todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 30px;
+  width: 50%;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+input[type="checkbox"]:focus {
+  outline: 0;
+} */
